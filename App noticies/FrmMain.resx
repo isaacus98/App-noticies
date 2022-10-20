@@ -117,17 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-búsqueda-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PbMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAARxJREFUeF7t
+        28tJBEEYBOAFNwTNwQdqCOpFvItR+MhGzMEYFPPxkYJt/Usfxeu2098Hda9imB4Y6BUAAAAAAAAAAAAA
+        AMCWtdaOkqfkeeGpjYd99phScC/5SmZRW3f7/PGk3M2m5lyu+/zxpNxJ8r2pOYfaetznjykF75L3artw
+        tfG2zwYAAADgH2qtrZOLpP78Ljm1cafPHlMK1sN4S2bxmqz7/PGk3NWm5lwu+/zxpJwHMpKUqyOrXuNZ
+        vCTjHlklBXeS8+S3D+GScpaM/VEHAAAA4E+ttYfkM1m6j+S+zx5TCp4mriOMIuXqL+hshr6ws5vMdKWt
+        juZxr7SVFDxIHpPfLkouKbVxv88GAAAAAAAAAAAAAADYjtXqB9uasbgZ4dWNAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="usuari" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-usuario-100(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-menú-100(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
