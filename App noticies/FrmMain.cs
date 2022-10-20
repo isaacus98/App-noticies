@@ -68,13 +68,12 @@ namespace App_noticies
 
                 
             }
-
-			Console.WriteLine(PnMenuLateral.Width);
 		}
 
         private void LbIniciSessio_Click(object sender, EventArgs e)
         {
-
+            Login log = new Login();
+            log.ShowDialog();
         }
     }
 }
