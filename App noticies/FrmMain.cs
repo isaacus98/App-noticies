@@ -42,14 +42,39 @@ namespace App_noticies
 		{
 			if (!MenuDisplay)
 			{
-				
+                if (PnMenuLateral.Width == 0)
+                {
+                    Timer.Stop();
+                    MenuDisplay = true;
+                }
+                else
+                {
+                    PnMenuLateral.Width -= 10;
+                }
+                
 			}
 			else
 			{
+                if (PnMenuLateral.Width == 170)
+                {
+                    PnMenuLateral.Width = 170;
+                    Timer.Stop();
+                    MenuDisplay = false;
+                }
+                else
+                {
+                    PnMenuLateral.Width += 10;
+                }
 
-			}
+                
+            }
 
 			Console.WriteLine(PnMenuLateral.Width);
 		}
-	}
+
+        private void LbIniciSessio_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
