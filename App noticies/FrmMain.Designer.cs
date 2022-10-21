@@ -34,7 +34,6 @@
             this.LbIniciSessio = new System.Windows.Forms.Label();
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.PbLogo = new System.Windows.Forms.PictureBox();
-            this.TxtBuscar = new Windows.Forms.HintTextBox(this.components);
             this.PbMenu = new System.Windows.Forms.PictureBox();
             this.PnMenuLateral = new System.Windows.Forms.Panel();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
@@ -43,6 +42,8 @@
             this.BtnEsports = new FontAwesome.Sharp.IconButton();
             this.PnNoticies = new System.Windows.Forms.Panel();
             this.Timer = new System.Windows.Forms.Timer(this.components);
+            this.TxtBuscar = new PlaceholderTextBox.PlaceholderTextBox();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.PnMenuSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbMenu)).BeginInit();
@@ -52,14 +53,14 @@
             // PnMenuSuperior
             // 
             this.PnMenuSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(154)))), ((int)(((byte)(62)))));
+            this.PnMenuSuperior.Controls.Add(this.TxtBuscar);
             this.PnMenuSuperior.Controls.Add(this.LbIniciSessio);
             this.PnMenuSuperior.Controls.Add(this.BtnBuscar);
             this.PnMenuSuperior.Controls.Add(this.PbLogo);
-            this.PnMenuSuperior.Controls.Add(this.TxtBuscar);
             this.PnMenuSuperior.Controls.Add(this.PbMenu);
             this.PnMenuSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnMenuSuperior.Location = new System.Drawing.Point(0, 0);
-            this.PnMenuSuperior.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnMenuSuperior.Margin = new System.Windows.Forms.Padding(2);
             this.PnMenuSuperior.Name = "PnMenuSuperior";
             this.PnMenuSuperior.Size = new System.Drawing.Size(1021, 65);
             this.PnMenuSuperior.TabIndex = 0;
@@ -67,15 +68,15 @@
             // LbIniciSessio
             // 
             this.LbIniciSessio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LbIniciSessio.AutoSize = true;
             this.LbIniciSessio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LbIniciSessio.ForeColor = System.Drawing.Color.White;
-            this.LbIniciSessio.Location = new System.Drawing.Point(838, 25);
+            this.LbIniciSessio.Location = new System.Drawing.Point(838, 9);
             this.LbIniciSessio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LbIniciSessio.Name = "LbIniciSessio";
-            this.LbIniciSessio.Size = new System.Drawing.Size(172, 20);
+            this.LbIniciSessio.Size = new System.Drawing.Size(172, 51);
             this.LbIniciSessio.TabIndex = 3;
             this.LbIniciSessio.Text = "Iniciar Sessió/Registrar";
+            this.LbIniciSessio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LbIniciSessio.Click += new System.EventHandler(this.LbIniciSessio_Click);
             this.LbIniciSessio.MouseLeave += new System.EventHandler(this.LbIniciSessio_MouseLeave);
             this.LbIniciSessio.MouseHover += new System.EventHandler(this.LbIniciSessio_MouseHover);
@@ -87,9 +88,9 @@
             this.BtnBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBuscar.Location = new System.Drawing.Point(281, 20);
-            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(25, 28);
+            this.BtnBuscar.Size = new System.Drawing.Size(29, 29);
             this.BtnBuscar.TabIndex = 2;
             this.BtnBuscar.UseVisualStyleBackColor = false;
             // 
@@ -97,34 +98,18 @@
             // 
             this.PbLogo.Image = global::App_noticies.Properties.Resources.Logo;
             this.PbLogo.Location = new System.Drawing.Point(466, 0);
-            this.PbLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.PbLogo.Name = "PbLogo";
             this.PbLogo.Size = new System.Drawing.Size(88, 65);
             this.PbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PbLogo.TabIndex = 1;
             this.PbLogo.TabStop = false;
             // 
-            // TxtBuscar
-            // 
-            this.TxtBuscar.EnterToTab = false;
-            this.TxtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBuscar.ForeColor = System.Drawing.Color.Gray;
-            this.TxtBuscar.HintColor = System.Drawing.Color.Gray;
-            this.TxtBuscar.HintValue = "Buscar";
-            this.TxtBuscar.Location = new System.Drawing.Point(77, 20);
-            this.TxtBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TxtBuscar.Name = "TxtBuscar";
-            this.TxtBuscar.Size = new System.Drawing.Size(206, 28);
-            this.TxtBuscar.TabIndex = 0;
-            this.TxtBuscar.Text = "Buscar";
-            this.TxtBuscar.TextForeColor = System.Drawing.Color.Black;
-            this.TxtBuscar.Value = "";
-            // 
             // PbMenu
             // 
             this.PbMenu.Image = ((System.Drawing.Image)(resources.GetObject("PbMenu.Image")));
             this.PbMenu.Location = new System.Drawing.Point(9, 10);
-            this.PbMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PbMenu.Margin = new System.Windows.Forms.Padding(2);
             this.PbMenu.Name = "PbMenu";
             this.PbMenu.Size = new System.Drawing.Size(52, 50);
             this.PbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -135,13 +120,14 @@
             // PnMenuLateral
             // 
             this.PnMenuLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(154)))), ((int)(((byte)(62)))));
+            this.PnMenuLateral.Controls.Add(this.iconButton4);
             this.PnMenuLateral.Controls.Add(this.iconButton3);
             this.PnMenuLateral.Controls.Add(this.iconButton2);
             this.PnMenuLateral.Controls.Add(this.iconButton1);
             this.PnMenuLateral.Controls.Add(this.BtnEsports);
             this.PnMenuLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.PnMenuLateral.Location = new System.Drawing.Point(0, 65);
-            this.PnMenuLateral.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnMenuLateral.Margin = new System.Windows.Forms.Padding(2);
             this.PnMenuLateral.Name = "PnMenuLateral";
             this.PnMenuLateral.Size = new System.Drawing.Size(169, 544);
             this.PnMenuLateral.TabIndex = 1;
@@ -158,7 +144,7 @@
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton3.Location = new System.Drawing.Point(0, 194);
-            this.iconButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconButton3.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Size = new System.Drawing.Size(170, 54);
             this.iconButton3.TabIndex = 3;
@@ -179,7 +165,7 @@
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton2.Location = new System.Drawing.Point(0, 141);
-            this.iconButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconButton2.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Size = new System.Drawing.Size(170, 54);
             this.iconButton2.TabIndex = 2;
@@ -200,7 +186,7 @@
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton1.Location = new System.Drawing.Point(0, 89);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(170, 54);
             this.iconButton1.TabIndex = 1;
@@ -221,7 +207,7 @@
             this.BtnEsports.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEsports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEsports.Location = new System.Drawing.Point(0, 36);
-            this.BtnEsports.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnEsports.Margin = new System.Windows.Forms.Padding(2);
             this.BtnEsports.Name = "BtnEsports";
             this.BtnEsports.Size = new System.Drawing.Size(170, 54);
             this.BtnEsports.TabIndex = 0;
@@ -235,7 +221,7 @@
             this.PnNoticies.BackColor = System.Drawing.Color.White;
             this.PnNoticies.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnNoticies.Location = new System.Drawing.Point(169, 65);
-            this.PnNoticies.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnNoticies.Margin = new System.Windows.Forms.Padding(2);
             this.PnNoticies.Name = "PnNoticies";
             this.PnNoticies.Size = new System.Drawing.Size(852, 544);
             this.PnNoticies.TabIndex = 2;
@@ -245,6 +231,36 @@
             this.Timer.Interval = 50;
             this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
+            // TxtBuscar
+            // 
+            this.TxtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBuscar.Location = new System.Drawing.Point(76, 20);
+            this.TxtBuscar.Name = "TxtBuscar";
+            this.TxtBuscar.PlaceholderText = "Buscar";
+            this.TxtBuscar.Size = new System.Drawing.Size(206, 29);
+            this.TxtBuscar.TabIndex = 4;
+            // 
+            // iconButton4
+            // 
+            this.iconButton4.BackColor = System.Drawing.Color.Transparent;
+            this.iconButton4.FlatAppearance.BorderSize = 0;
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton4.ForeColor = System.Drawing.Color.White;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
+            this.iconButton4.IconColor = System.Drawing.Color.White;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.Location = new System.Drawing.Point(-1, 245);
+            this.iconButton4.Margin = new System.Windows.Forms.Padding(2);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Size = new System.Drawing.Size(170, 54);
+            this.iconButton4.TabIndex = 4;
+            this.iconButton4.Text = "Botiga";
+            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton4.UseVisualStyleBackColor = false;
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -253,7 +269,7 @@
             this.Controls.Add(this.PnNoticies);
             this.Controls.Add(this.PnMenuLateral);
             this.Controls.Add(this.PnMenuSuperior);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmMain";
             this.Text = "App noticies";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -275,13 +291,14 @@
         private System.Windows.Forms.PictureBox PbMenu;
         private System.Windows.Forms.PictureBox PbLogo;
         private System.Windows.Forms.Button BtnBuscar;
-        private Windows.Forms.HintTextBox TxtBuscar;
         private System.Windows.Forms.Label LbIniciSessio;
         private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconButton BtnEsports;
         private System.Windows.Forms.Timer Timer;
+        private PlaceholderTextBox.PlaceholderTextBox TxtBuscar;
+        private FontAwesome.Sharp.IconButton iconButton4;
     }
 }
 

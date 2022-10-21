@@ -39,12 +39,23 @@ namespace App_noticies
             {
                 if(String.IsNullOrEmpty(TxtNom.Text)&& String.IsNullOrEmpty(TxtContrasenya.Text)&&String.IsNullOrEmpty(TxtRepetirContrasenya.Text)&& String.IsNullOrEmpty(TxtUserName.Text)&& String.IsNullOrEmpty(TxtEmail.Text))
                 {
-                    MessageBox.Show("Algun camp està buit.");
+                    MessageBox.Show("Falten dades per omplir", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    this.Close();
                 }
             }
             else
             {
-
+                if(String.IsNullOrEmpty(TxtUserName.Text) || String.IsNullOrEmpty(TxtContrasenya.Text))
+                {
+                    MessageBox.Show("Falten dades per omplir", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    this.Close();
+                }
             }
         }
     }
