@@ -24,6 +24,8 @@ namespace App_noticies
 		private void FrmMain_Load(object sender, EventArgs e)
 		{
 			PbLogo.Left = this.Width / 2;
+			FrmNoticies frm = new FrmNoticies(PnFormularis);
+			CarregarForm(frm,PnFormularis);
 		}
 
 		private void LbIniciSessio_MouseHover(object sender, EventArgs e)
@@ -78,8 +80,7 @@ namespace App_noticies
 			if (IniciatSessio)
 			{
 				FrmDadesUsuari frm = new FrmDadesUsuari();
-				frm.Show();
-				this.Hide();
+				CarregarForm(frm, PnFormularis);
 			}
 			else
 			{
@@ -108,15 +109,28 @@ namespace App_noticies
 		private void BtnBotiga_Click(object sender, EventArgs e)
 		{
 			FrmBotiga frm = new FrmBotiga();
-			frm.Show();
-			this.Hide();
+			CarregarForm(frm, PnFormularis);
 		}
 
-		private void label2_Click(object sender, EventArgs e)
+        public static void CarregarForm(Form frm, Panel panel)
+        {
+            List<Form> llistaFormularis = panel.Controls.OfType<Form>().ToList<Form>();
+            foreach (Form formulari in llistaFormularis)
+            {
+                formulari.Close();
+            }
+
+            panel.Controls.Clear();
+            frm.TopLevel = false;
+            frm.TopLevel = false;
+            panel.Controls.Add(frm);
+            frm.Show();
+        }
+
+		private void PbLogo_Click(object sender, EventArgs e)
 		{
-			FrmNoticia frm = new FrmNoticia();
-			frm.Show();
-			this.Hide();
+			FrmNoticies frm = new FrmNoticies(PnFormularis);
+			CarregarForm(frm, PnFormularis);
 		}
 	}
 }

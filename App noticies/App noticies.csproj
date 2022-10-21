@@ -70,6 +70,12 @@
     <Compile Include="FrmDadesUsuari.Designer.cs">
       <DependentUpon>FrmDadesUsuari.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNoticies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoticies.Designer.cs">
+      <DependentUpon>FrmNoticies.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmNoticia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDadesUsuari.resx">
       <DependentUpon>FrmDadesUsuari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoticies.resx">
+      <DependentUpon>FrmNoticies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmNoticia.resx">
       <DependentUpon>FrmNoticia.cs</DependentUpon>

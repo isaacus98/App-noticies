@@ -117,16 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="PbMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAARxJREFUeF7t
-        28tJBEEYBOAFNwTNwQdqCOpFvItR+MhGzMEYFPPxkYJt/Usfxeu2098Hda9imB4Y6BUAAAAAAAAAAAAA
-        AMCWtdaOkqfkeeGpjYd99phScC/5SmZRW3f7/PGk3M2m5lyu+/zxpNxJ8r2pOYfaetznjykF75L3artw
-        tfG2zwYAAADgH2qtrZOLpP78Ljm1cafPHlMK1sN4S2bxmqz7/PGk3NWm5lwu+/zxpJwHMpKUqyOrXuNZ
-        vCTjHlklBXeS8+S3D+GScpaM/VEHAAAA4E+ttYfkM1m6j+S+zx5TCp4mriOMIuXqL+hshr6ws5vMdKWt
-        juZxr7SVFDxIHpPfLkouKbVxv88GAAAAAAAAAAAAAADYjtXqB9uasbgZ4dWNAAAAAElFTkSuQmCC
-</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
   </data>
   <metadata name="Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
