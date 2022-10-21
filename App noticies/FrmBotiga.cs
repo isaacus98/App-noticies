@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace App_noticies
 {
-	public partial class FrmMain : Form
+	public partial class FrmBotiga : Form
 	{
 		private bool MenuDisplay = false;
-		public FrmMain()
+		public FrmBotiga()
 		{
 			InitializeComponent();
 		}
@@ -88,9 +88,7 @@ namespace App_noticies
 
 		private void BtnBotiga_Click(object sender, EventArgs e)
 		{
-			FrmBotiga frm = new FrmBotiga();
-			frm.Show();
-			this.Hide();
+
 		}
 	}
 }
