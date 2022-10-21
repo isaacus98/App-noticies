@@ -36,14 +36,14 @@
             this.PbLogo = new System.Windows.Forms.PictureBox();
             this.PbMenu = new System.Windows.Forms.PictureBox();
             this.PnMenuLateral = new System.Windows.Forms.Panel();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.BtnCine = new FontAwesome.Sharp.IconButton();
+            this.BtnEconomia = new FontAwesome.Sharp.IconButton();
+            this.BtnPolitica = new FontAwesome.Sharp.IconButton();
             this.BtnEsports = new FontAwesome.Sharp.IconButton();
             this.PnNoticies = new System.Windows.Forms.Panel();
             this.Timer = new System.Windows.Forms.Timer(this.components);
             this.TxtBuscar = new PlaceholderTextBox.PlaceholderTextBox();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.BtnBotiga = new FontAwesome.Sharp.IconButton();
             this.PnMenuSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbMenu)).BeginInit();
@@ -116,14 +116,16 @@
             this.PbMenu.TabIndex = 0;
             this.PbMenu.TabStop = false;
             this.PbMenu.Click += new System.EventHandler(this.PbMenu_Click);
+            this.PbMenu.MouseLeave += new System.EventHandler(this.PbMenu_MouseLeave);
+            this.PbMenu.MouseHover += new System.EventHandler(this.PbMenu_MouseHover);
             // 
             // PnMenuLateral
             // 
             this.PnMenuLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(154)))), ((int)(((byte)(62)))));
-            this.PnMenuLateral.Controls.Add(this.iconButton4);
-            this.PnMenuLateral.Controls.Add(this.iconButton3);
-            this.PnMenuLateral.Controls.Add(this.iconButton2);
-            this.PnMenuLateral.Controls.Add(this.iconButton1);
+            this.PnMenuLateral.Controls.Add(this.BtnBotiga);
+            this.PnMenuLateral.Controls.Add(this.BtnCine);
+            this.PnMenuLateral.Controls.Add(this.BtnEconomia);
+            this.PnMenuLateral.Controls.Add(this.BtnPolitica);
             this.PnMenuLateral.Controls.Add(this.BtnEsports);
             this.PnMenuLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.PnMenuLateral.Location = new System.Drawing.Point(0, 65);
@@ -132,73 +134,81 @@
             this.PnMenuLateral.Size = new System.Drawing.Size(169, 544);
             this.PnMenuLateral.TabIndex = 1;
             // 
-            // iconButton3
+            // BtnCine
             // 
-            this.iconButton3.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.Color.White;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Film;
-            this.iconButton3.IconColor = System.Drawing.Color.White;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 194);
-            this.iconButton3.Margin = new System.Windows.Forms.Padding(2);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(170, 54);
-            this.iconButton3.TabIndex = 3;
-            this.iconButton3.Text = "Cine";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = false;
+            this.BtnCine.BackColor = System.Drawing.Color.Transparent;
+            this.BtnCine.FlatAppearance.BorderSize = 0;
+            this.BtnCine.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnCine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnCine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCine.ForeColor = System.Drawing.Color.White;
+            this.BtnCine.IconChar = FontAwesome.Sharp.IconChar.Film;
+            this.BtnCine.IconColor = System.Drawing.Color.White;
+            this.BtnCine.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnCine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCine.Location = new System.Drawing.Point(0, 194);
+            this.BtnCine.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnCine.Name = "BtnCine";
+            this.BtnCine.Size = new System.Drawing.Size(170, 54);
+            this.BtnCine.TabIndex = 3;
+            this.BtnCine.Text = "Cine";
+            this.BtnCine.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCine.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnCine.UseVisualStyleBackColor = false;
             // 
-            // iconButton2
+            // BtnEconomia
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.ForeColor = System.Drawing.Color.White;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.MoneyBill;
-            this.iconButton2.IconColor = System.Drawing.Color.White;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(0, 141);
-            this.iconButton2.Margin = new System.Windows.Forms.Padding(2);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(170, 54);
-            this.iconButton2.TabIndex = 2;
-            this.iconButton2.Text = "Economia";
-            this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton2.UseVisualStyleBackColor = false;
+            this.BtnEconomia.BackColor = System.Drawing.Color.Transparent;
+            this.BtnEconomia.FlatAppearance.BorderSize = 0;
+            this.BtnEconomia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnEconomia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnEconomia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEconomia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEconomia.ForeColor = System.Drawing.Color.White;
+            this.BtnEconomia.IconChar = FontAwesome.Sharp.IconChar.MoneyBill;
+            this.BtnEconomia.IconColor = System.Drawing.Color.White;
+            this.BtnEconomia.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnEconomia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEconomia.Location = new System.Drawing.Point(0, 141);
+            this.BtnEconomia.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEconomia.Name = "BtnEconomia";
+            this.BtnEconomia.Size = new System.Drawing.Size(170, 54);
+            this.BtnEconomia.TabIndex = 2;
+            this.BtnEconomia.Text = "Economia";
+            this.BtnEconomia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEconomia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnEconomia.UseVisualStyleBackColor = false;
             // 
-            // iconButton1
+            // BtnPolitica
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.ForeColor = System.Drawing.Color.White;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Landmark;
-            this.iconButton1.IconColor = System.Drawing.Color.White;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 89);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(170, 54);
-            this.iconButton1.TabIndex = 1;
-            this.iconButton1.Text = "Politica";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = false;
+            this.BtnPolitica.BackColor = System.Drawing.Color.Transparent;
+            this.BtnPolitica.FlatAppearance.BorderSize = 0;
+            this.BtnPolitica.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnPolitica.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnPolitica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPolitica.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPolitica.ForeColor = System.Drawing.Color.White;
+            this.BtnPolitica.IconChar = FontAwesome.Sharp.IconChar.Landmark;
+            this.BtnPolitica.IconColor = System.Drawing.Color.White;
+            this.BtnPolitica.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnPolitica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnPolitica.Location = new System.Drawing.Point(0, 89);
+            this.BtnPolitica.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnPolitica.Name = "BtnPolitica";
+            this.BtnPolitica.Size = new System.Drawing.Size(170, 54);
+            this.BtnPolitica.TabIndex = 1;
+            this.BtnPolitica.Text = "Politica";
+            this.BtnPolitica.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnPolitica.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnPolitica.UseVisualStyleBackColor = false;
             // 
             // BtnEsports
             // 
             this.BtnEsports.BackColor = System.Drawing.Color.Transparent;
             this.BtnEsports.FlatAppearance.BorderSize = 0;
+            this.BtnEsports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnEsports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.BtnEsports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEsports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEsports.ForeColor = System.Drawing.Color.White;
@@ -240,26 +250,29 @@
             this.TxtBuscar.Size = new System.Drawing.Size(206, 29);
             this.TxtBuscar.TabIndex = 4;
             // 
-            // iconButton4
+            // BtnBotiga
             // 
-            this.iconButton4.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton4.ForeColor = System.Drawing.Color.White;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
-            this.iconButton4.IconColor = System.Drawing.Color.White;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(-1, 245);
-            this.iconButton4.Margin = new System.Windows.Forms.Padding(2);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(170, 54);
-            this.iconButton4.TabIndex = 4;
-            this.iconButton4.Text = "Botiga";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = false;
+            this.BtnBotiga.BackColor = System.Drawing.Color.Transparent;
+            this.BtnBotiga.FlatAppearance.BorderSize = 0;
+            this.BtnBotiga.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnBotiga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnBotiga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBotiga.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBotiga.ForeColor = System.Drawing.Color.White;
+            this.BtnBotiga.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
+            this.BtnBotiga.IconColor = System.Drawing.Color.White;
+            this.BtnBotiga.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnBotiga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBotiga.Location = new System.Drawing.Point(-1, 245);
+            this.BtnBotiga.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnBotiga.Name = "BtnBotiga";
+            this.BtnBotiga.Size = new System.Drawing.Size(170, 54);
+            this.BtnBotiga.TabIndex = 4;
+            this.BtnBotiga.Text = "Botiga";
+            this.BtnBotiga.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBotiga.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnBotiga.UseVisualStyleBackColor = false;
+            this.BtnBotiga.Click += new System.EventHandler(this.BtnBotiga_Click);
             // 
             // FrmMain
             // 
@@ -292,13 +305,13 @@
         private System.Windows.Forms.PictureBox PbLogo;
         private System.Windows.Forms.Button BtnBuscar;
         private System.Windows.Forms.Label LbIniciSessio;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton BtnCine;
+        private FontAwesome.Sharp.IconButton BtnEconomia;
+        private FontAwesome.Sharp.IconButton BtnPolitica;
         private FontAwesome.Sharp.IconButton BtnEsports;
         private System.Windows.Forms.Timer Timer;
         private PlaceholderTextBox.PlaceholderTextBox TxtBuscar;
-        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton BtnBotiga;
     }
 }
 

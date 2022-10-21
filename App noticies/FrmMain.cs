@@ -75,5 +75,20 @@ namespace App_noticies
             Login log = new Login();
             log.ShowDialog();
         }
-    }
+
+		private void PbMenu_MouseHover(object sender, EventArgs e)
+		{
+			PbMenu.BackColor = Color.FromArgb(255, 166, 62);
+		}
+
+		private void PbMenu_MouseLeave(object sender, EventArgs e)
+		{
+            PbMenu.BackColor = Color.FromArgb(255, 154, 62);
+        }
+
+		private void BtnBotiga_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
