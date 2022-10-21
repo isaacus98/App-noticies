@@ -10,13 +10,10 @@ using System.Windows.Forms;
 
 namespace App_noticies
 {
-	public partial class FrmMain : Form
+	public partial class FrmDadesUsuari : Form
 	{
 		private bool MenuDisplay = false;
-		public static bool IniciatSessio = false;
-		public static string Username = "";
-
-		public FrmMain()
+		public FrmDadesUsuari()
 		{
 			InitializeComponent();
 		}
@@ -75,24 +72,8 @@ namespace App_noticies
 
         private void LbIniciSessio_Click(object sender, EventArgs e)
         {
-			if (IniciatSessio)
-			{
-				FrmDadesUsuari frm = new FrmDadesUsuari();
-				frm.Show();
-				this.Hide();
-			}
-			else
-			{
-				Login log = new Login();
-				log.ShowDialog();
-
-				if (IniciatSessio)
-				{
-					LbIniciSessio.Text = Username;
-				}
-			}
-
-
+            Login log = new Login();
+            log.ShowDialog();
         }
 
 		private void PbMenu_MouseHover(object sender, EventArgs e)
@@ -108,13 +89,6 @@ namespace App_noticies
 		private void BtnBotiga_Click(object sender, EventArgs e)
 		{
 			FrmBotiga frm = new FrmBotiga();
-			frm.Show();
-			this.Hide();
-		}
-
-		private void label2_Click(object sender, EventArgs e)
-		{
-			FrmNoticia frm = new FrmNoticia();
 			frm.Show();
 			this.Hide();
 		}

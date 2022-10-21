@@ -1,6 +1,6 @@
 ﻿namespace App_noticies
 {
-    partial class FrmBotiga
+    partial class FrmDadesUsuari
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBotiga));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDadesUsuari));
             this.PnMenuSuperior = new System.Windows.Forms.Panel();
             this.TxtBuscar = new PlaceholderTextBox.PlaceholderTextBox();
             this.LbIniciSessio = new System.Windows.Forms.Label();
@@ -126,11 +126,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(398, 218);
+            this.label1.Location = new System.Drawing.Point(381, 181);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "botiga";
+            this.label1.Text = "dades usuari";
             // 
             // BtnBotiga
             // 
@@ -286,7 +286,7 @@
             this.PbMenu.MouseLeave += new System.EventHandler(this.PbMenu_MouseLeave);
             this.PbMenu.MouseHover += new System.EventHandler(this.PbMenu_MouseHover);
             // 
-            // FrmBotiga
+            // FrmDadesUsuari
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -296,7 +296,7 @@
             this.Controls.Add(this.PnMenuSuperior);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.Name = "FrmBotiga";
+            this.Name = "FrmDadesUsuari";
             this.Text = "App noticies";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmMain_Load);

@@ -64,6 +64,18 @@
     <Compile Include="FrmBotiga.Designer.cs">
       <DependentUpon>FrmBotiga.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDadesUsuari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDadesUsuari.Designer.cs">
+      <DependentUpon>FrmDadesUsuari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNoticia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoticia.Designer.cs">
+      <DependentUpon>FrmNoticia.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmBotiga.resx">
       <DependentUpon>FrmBotiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDadesUsuari.resx">
+      <DependentUpon>FrmDadesUsuari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoticia.resx">
+      <DependentUpon>FrmNoticia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
@@ -131,6 +149,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-logo-de-google-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lewandowski.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pintura.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedro sanchez.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elonMusk.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

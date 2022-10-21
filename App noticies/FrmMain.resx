@@ -128,6 +128,18 @@
         juZxr7SVFDxIHpPfLkouKbVxv88GAAAAAAAAAAAAAADYjtXqB9uasbgZ4dWNAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque erat magna, vitae ornare neque convallis in. Sed in lacus mollis erat fringilla laoreet nec non diam. Donec ac lacinia nibh. Curabitur id scelerisque libero, et ornare lacus. Vestibulum neque libero, finibus rutrum scelerisque nec, blandit placerat dui. Morbi orci. </value>
+  </data>
   <metadata name="Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

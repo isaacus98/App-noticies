@@ -43,6 +43,8 @@ namespace App_noticies
                 }
                 else
                 {
+                    FrmMain.Username = TxtUserName.Text;
+                    FrmMain.IniciatSessio = true;
                     this.Close();
                 }
             }
@@ -54,6 +56,8 @@ namespace App_noticies
                 }
                 else
                 {
+                    FrmMain.Username = TxtUserName.Text;
+                    FrmMain.IniciatSessio = true;
                     this.Close();
                 }
             }
