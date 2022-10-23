@@ -19,7 +19,8 @@ namespace App_noticies
             RbtnClar.Checked = !IsThemeDark;
             RbtnFosc.Checked = IsThemeDark;
             timer1.Start();
-		}
+            TxtListTags.Text = FrmMain.tags;
+        }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             if (RbtnClar.Checked)
@@ -59,6 +60,28 @@ namespace App_noticies
                 this.LblTemes.ForeColor = Color.Black;
                 this.PnlLinia.BackColor = Color.Black;
             }
+        }
+
+        private void BtnConfirmarDades_Click(object sender, EventArgs e)
+        {
+            FrmMain.Username = TxtUserName.Text;
+
+            FrmMain.LbIniciSessio.Text = FrmMain.Username;
+
+            TxtCognom.Text = "";
+            TxtContrasenya.Text = "";
+            TxtDireccio.Text = "";
+            TxtEmail.Text = "";
+            TxtNom.Text = "";
+            TxtRepetirContrassenya.Text = "";
+            TxtUserName.Text = "";
+        }
+
+        private void BtnAfegirTag_Click(object sender, EventArgs e)
+        {
+            FrmMain.tags += "#" + TxtTags.Text + " ";
+
+            TxtListTags.Text = FrmMain.tags;
         }
     }
 }

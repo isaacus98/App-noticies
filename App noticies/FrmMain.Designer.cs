@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.PnMenuSuperior = new System.Windows.Forms.Panel();
             this.TxtBuscar = new PlaceholderTextBox.PlaceholderTextBox();
-            this.LbIniciSessio = new System.Windows.Forms.Label();
+            LbIniciSessio = new System.Windows.Forms.Label();
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.PbLogo = new System.Windows.Forms.PictureBox();
             this.PbMenu = new System.Windows.Forms.PictureBox();
@@ -54,41 +54,41 @@
             // 
             this.PnMenuSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(154)))), ((int)(((byte)(62)))));
             this.PnMenuSuperior.Controls.Add(this.TxtBuscar);
-            this.PnMenuSuperior.Controls.Add(this.LbIniciSessio);
+            this.PnMenuSuperior.Controls.Add(LbIniciSessio);
             this.PnMenuSuperior.Controls.Add(this.BtnBuscar);
             this.PnMenuSuperior.Controls.Add(this.PbLogo);
             this.PnMenuSuperior.Controls.Add(this.PbMenu);
             this.PnMenuSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnMenuSuperior.Location = new System.Drawing.Point(0, 0);
-            this.PnMenuSuperior.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PnMenuSuperior.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnMenuSuperior.Name = "PnMenuSuperior";
-            this.PnMenuSuperior.Size = new System.Drawing.Size(1924, 80);
+            this.PnMenuSuperior.Size = new System.Drawing.Size(1443, 65);
             this.PnMenuSuperior.TabIndex = 0;
             // 
             // TxtBuscar
             // 
             this.TxtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBuscar.Location = new System.Drawing.Point(101, 25);
-            this.TxtBuscar.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtBuscar.Location = new System.Drawing.Point(76, 20);
             this.TxtBuscar.Name = "TxtBuscar";
             this.TxtBuscar.PlaceholderText = "Buscar";
-            this.TxtBuscar.Size = new System.Drawing.Size(273, 34);
+            this.TxtBuscar.Size = new System.Drawing.Size(206, 29);
             this.TxtBuscar.TabIndex = 4;
             // 
             // LbIniciSessio
             // 
-            this.LbIniciSessio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LbIniciSessio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbIniciSessio.ForeColor = System.Drawing.Color.White;
-            this.LbIniciSessio.Location = new System.Drawing.Point(1680, 11);
-            this.LbIniciSessio.Name = "LbIniciSessio";
-            this.LbIniciSessio.Size = new System.Drawing.Size(229, 63);
-            this.LbIniciSessio.TabIndex = 3;
-            this.LbIniciSessio.Text = "Iniciar Sessió/Registrar";
-            this.LbIniciSessio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LbIniciSessio.Click += new System.EventHandler(this.LbIniciSessio_Click);
-            this.LbIniciSessio.MouseLeave += new System.EventHandler(this.LbIniciSessio_MouseLeave);
-            this.LbIniciSessio.MouseHover += new System.EventHandler(this.LbIniciSessio_MouseHover);
+            LbIniciSessio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            LbIniciSessio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            LbIniciSessio.ForeColor = System.Drawing.Color.White;
+            LbIniciSessio.Location = new System.Drawing.Point(1260, 9);
+            LbIniciSessio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            LbIniciSessio.Name = "LbIniciSessio";
+            LbIniciSessio.Size = new System.Drawing.Size(172, 51);
+            LbIniciSessio.TabIndex = 3;
+            LbIniciSessio.Text = "Iniciar Sessió/Registrar";
+            LbIniciSessio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LbIniciSessio.Click += new System.EventHandler(this.LbIniciSessio_Click);
+            LbIniciSessio.MouseLeave += new System.EventHandler(this.LbIniciSessio_MouseLeave);
+            LbIniciSessio.MouseHover += new System.EventHandler(this.LbIniciSessio_MouseHover);
             // 
             // BtnBuscar
             // 
@@ -96,20 +96,20 @@
             this.BtnBuscar.BackgroundImage = global::App_noticies.Properties.Resources.lupa;
             this.BtnBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnBuscar.Location = new System.Drawing.Point(375, 25);
-            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnBuscar.Location = new System.Drawing.Point(281, 20);
+            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(39, 36);
+            this.BtnBuscar.Size = new System.Drawing.Size(29, 29);
             this.BtnBuscar.TabIndex = 2;
             this.BtnBuscar.UseVisualStyleBackColor = false;
             // 
             // PbLogo
             // 
             this.PbLogo.Image = global::App_noticies.Properties.Resources.Logo;
-            this.PbLogo.Location = new System.Drawing.Point(621, 0);
-            this.PbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PbLogo.Location = new System.Drawing.Point(466, 0);
+            this.PbLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PbLogo.Name = "PbLogo";
-            this.PbLogo.Size = new System.Drawing.Size(117, 80);
+            this.PbLogo.Size = new System.Drawing.Size(88, 65);
             this.PbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PbLogo.TabIndex = 1;
             this.PbLogo.TabStop = false;
@@ -118,10 +118,10 @@
             // PbMenu
             // 
             this.PbMenu.Image = ((System.Drawing.Image)(resources.GetObject("PbMenu.Image")));
-            this.PbMenu.Location = new System.Drawing.Point(12, 12);
-            this.PbMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PbMenu.Location = new System.Drawing.Point(9, 10);
+            this.PbMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PbMenu.Name = "PbMenu";
-            this.PbMenu.Size = new System.Drawing.Size(69, 62);
+            this.PbMenu.Size = new System.Drawing.Size(52, 50);
             this.PbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PbMenu.TabIndex = 0;
             this.PbMenu.TabStop = false;
@@ -138,10 +138,10 @@
             this.PnMenuLateral.Controls.Add(this.BtnPolitica);
             this.PnMenuLateral.Controls.Add(this.BtnEsports);
             this.PnMenuLateral.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PnMenuLateral.Location = new System.Drawing.Point(0, 80);
-            this.PnMenuLateral.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PnMenuLateral.Location = new System.Drawing.Point(0, 65);
+            this.PnMenuLateral.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnMenuLateral.Name = "PnMenuLateral";
-            this.PnMenuLateral.Size = new System.Drawing.Size(225, 975);
+            this.PnMenuLateral.Size = new System.Drawing.Size(169, 792);
             this.PnMenuLateral.TabIndex = 1;
             // 
             // BtnBotiga
@@ -157,10 +157,10 @@
             this.BtnBotiga.IconColor = System.Drawing.Color.White;
             this.BtnBotiga.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnBotiga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBotiga.Location = new System.Drawing.Point(-1, 302);
-            this.BtnBotiga.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnBotiga.Location = new System.Drawing.Point(-1, 245);
+            this.BtnBotiga.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnBotiga.Name = "BtnBotiga";
-            this.BtnBotiga.Size = new System.Drawing.Size(227, 66);
+            this.BtnBotiga.Size = new System.Drawing.Size(170, 54);
             this.BtnBotiga.TabIndex = 4;
             this.BtnBotiga.Text = "Botiga";
             this.BtnBotiga.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -181,10 +181,10 @@
             this.BtnCine.IconColor = System.Drawing.Color.White;
             this.BtnCine.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnCine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnCine.Location = new System.Drawing.Point(0, 239);
-            this.BtnCine.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnCine.Location = new System.Drawing.Point(0, 194);
+            this.BtnCine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnCine.Name = "BtnCine";
-            this.BtnCine.Size = new System.Drawing.Size(227, 66);
+            this.BtnCine.Size = new System.Drawing.Size(170, 54);
             this.BtnCine.TabIndex = 3;
             this.BtnCine.Text = "Cine";
             this.BtnCine.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -204,10 +204,10 @@
             this.BtnEconomia.IconColor = System.Drawing.Color.White;
             this.BtnEconomia.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEconomia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEconomia.Location = new System.Drawing.Point(0, 174);
-            this.BtnEconomia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnEconomia.Location = new System.Drawing.Point(0, 141);
+            this.BtnEconomia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnEconomia.Name = "BtnEconomia";
-            this.BtnEconomia.Size = new System.Drawing.Size(227, 66);
+            this.BtnEconomia.Size = new System.Drawing.Size(170, 54);
             this.BtnEconomia.TabIndex = 2;
             this.BtnEconomia.Text = "Economia";
             this.BtnEconomia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -227,10 +227,10 @@
             this.BtnPolitica.IconColor = System.Drawing.Color.White;
             this.BtnPolitica.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnPolitica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnPolitica.Location = new System.Drawing.Point(0, 110);
-            this.BtnPolitica.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnPolitica.Location = new System.Drawing.Point(0, 89);
+            this.BtnPolitica.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnPolitica.Name = "BtnPolitica";
-            this.BtnPolitica.Size = new System.Drawing.Size(227, 66);
+            this.BtnPolitica.Size = new System.Drawing.Size(170, 54);
             this.BtnPolitica.TabIndex = 1;
             this.BtnPolitica.Text = "Politica";
             this.BtnPolitica.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -250,10 +250,10 @@
             this.BtnEsports.IconColor = System.Drawing.Color.White;
             this.BtnEsports.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEsports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEsports.Location = new System.Drawing.Point(0, 44);
-            this.BtnEsports.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnEsports.Location = new System.Drawing.Point(0, 36);
+            this.BtnEsports.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnEsports.Name = "BtnEsports";
-            this.BtnEsports.Size = new System.Drawing.Size(227, 66);
+            this.BtnEsports.Size = new System.Drawing.Size(170, 54);
             this.BtnEsports.TabIndex = 0;
             this.BtnEsports.Text = "Esports";
             this.BtnEsports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -267,10 +267,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PnFormularis.BackColor = System.Drawing.Color.Transparent;
             this.PnFormularis.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.PnFormularis.Location = new System.Drawing.Point(225, 80);
-            this.PnFormularis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PnFormularis.Location = new System.Drawing.Point(169, 65);
+            this.PnFormularis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnFormularis.Name = "PnFormularis";
-            this.PnFormularis.Size = new System.Drawing.Size(2313, 1201);
+            this.PnFormularis.Size = new System.Drawing.Size(1735, 976);
             this.PnFormularis.TabIndex = 2;
             // 
             // Timer
@@ -285,15 +285,15 @@
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.ClientSize = new System.Drawing.Size(1443, 857);
             this.Controls.Add(this.PnFormularis);
             this.Controls.Add(this.PnMenuLateral);
             this.Controls.Add(this.PnMenuSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.Text = "App noticies";
@@ -315,7 +315,6 @@
         private System.Windows.Forms.PictureBox PbMenu;
         private System.Windows.Forms.PictureBox PbLogo;
         private System.Windows.Forms.Button BtnBuscar;
-        private System.Windows.Forms.Label LbIniciSessio;
         private FontAwesome.Sharp.IconButton BtnCine;
         private FontAwesome.Sharp.IconButton BtnEconomia;
         private FontAwesome.Sharp.IconButton BtnPolitica;
@@ -325,6 +324,7 @@
         private FontAwesome.Sharp.IconButton BtnBotiga;
         private System.Windows.Forms.Panel PnFormularis;
         private System.Windows.Forms.Timer TimerTema;
+        public static System.Windows.Forms.Label LbIniciSessio;
     }
 }
 

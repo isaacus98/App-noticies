@@ -16,19 +16,20 @@ namespace App_noticies
 		public static bool IniciatSessio = false;
 		public static string Username = "";
         private static bool IsThemeDark = false;
+        public static string tags = "";
 		public FrmMain()
 		{
 			InitializeComponent();
             TimerTema.Start();
-		}
+        }
 		private void FrmMain_Load(object sender, EventArgs e)
 		{
 			PbLogo.Left = this.Width / 2;
 			FrmNoticies frm = new FrmNoticies(PnFormularis);
 			CarregarForm(frm,PnFormularis);
-		}
+        }
 
-		private void LbIniciSessio_MouseHover(object sender, EventArgs e)
+        private void LbIniciSessio_MouseHover(object sender, EventArgs e)
 		{
 			LbIniciSessio.ForeColor = Color.Black;
 		}
@@ -77,7 +78,8 @@ namespace App_noticies
 
         private void LbIniciSessio_Click(object sender, EventArgs e)
         {
-			if (IniciatSessio)
+
+            if (IniciatSessio)
 			{
 				FrmDadesUsuari frm = new FrmDadesUsuari();
 				CarregarForm(frm, PnFormularis);
@@ -86,8 +88,8 @@ namespace App_noticies
 			{
 				Login log = new Login();
 				log.ShowDialog();
-
-				if (IniciatSessio)
+                
+                if (IniciatSessio)
 				{
 					LbIniciSessio.Text = Username;
 				}

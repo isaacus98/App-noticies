@@ -16,6 +16,7 @@ namespace App_noticies
         public Login()
         {
             InitializeComponent();
+            LbIniciSessio.Text = FrmMain.Username;
         }
 
 
