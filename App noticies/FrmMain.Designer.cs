@@ -262,8 +262,10 @@
             // 
             // PnFormularis
             // 
+            this.PnFormularis.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PnFormularis.BackColor = System.Drawing.Color.White;
-            this.PnFormularis.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnFormularis.Location = new System.Drawing.Point(169, 65);
             this.PnFormularis.Margin = new System.Windows.Forms.Padding(2);
             this.PnFormularis.Name = "PnFormularis";
@@ -279,6 +281,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.PnFormularis);
             this.Controls.Add(this.PnMenuLateral);
