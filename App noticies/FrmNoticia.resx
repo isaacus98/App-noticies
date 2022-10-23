@@ -117,6 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh tellus, vestibulum quis massa vitae, commodo iaculis tortor. Vivamus orci risus, venenatis eu molestie at, rhoncus sed risus. Maecenas quis neque eu turpis fringilla faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, justo id scelerisque maximus, lacus elit imperdiet felis, nec elementum lacus nisi sed nunc. Pellentesque sit amet enim tortor. Quisque facilisis diam sit amet convallis tempus. Aenean eu dictum odio. Nullam quis viverra tortor. Ut dignissim convallis ipsum. Donec imperdiet urna sed mattis accumsan.
+
+In eget molestie nibh, at fermentum mi. Aliquam rhoncus id felis quis varius. Nulla facilisi. Mauris ultricies leo non velit pharetra, nec eleifend leo pellentesque. Sed rutrum augue vel lectus cursus lacinia. Vestibulum ut rhoncus ante, eu aliquam enim. Nam convallis varius orci, ultrices porttitor velit interdum nec. Suspendisse nec suscipit risus, at cursus lacus. Nullam sed orci sit amet ante maximus feugiat. Nulla a erat vitae purus bibendum gravida. Aenean sollicitudin vehicula tortor, eget porttitor nulla porta nec. Phasellus id tincidunt est. Nulla justo enim, scelerisque a cursus sed, facilisis vitae mauris.
+
+Donec sit amet venenatis felis. Curabitur eget elit sed lacus congue scelerisque in sit amet dolor. Curabitur quis gravida risus, eu pharetra felis. Cras at risus finibus, iaculis elit et, condimentum erat. Curabitur nec nisl dui. In lobortis lorem dui, a semper nisl ornare quis. Pellentesque vel purus in mi tincidunt facilisis. Sed sed porta felis. Fusce vel libero lectus. Cras ornare fermentum facilisis. Cras nunc nibh, cursus ut lacus id, feugiat fringilla dui. Donec euismod nec dolor ut gravida. </value>
+  </data>
   <metadata name="Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
