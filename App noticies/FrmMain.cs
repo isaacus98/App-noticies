@@ -11,16 +11,16 @@ using System.Windows.Forms;
 namespace App_noticies
 {
 	public partial class FrmMain : Form
-	{
-		private bool MenuDisplay = false;
+    {
+        private bool MenuDisplay = false;
 		public static bool IniciatSessio = false;
 		public static string Username = "";
-
+        private static bool IsThemeDark = false;
 		public FrmMain()
 		{
 			InitializeComponent();
+            TimerTema.Start();
 		}
-
 		private void FrmMain_Load(object sender, EventArgs e)
 		{
 			PbLogo.Left = this.Width / 2;
@@ -132,5 +132,25 @@ namespace App_noticies
 			FrmNoticies frm = new FrmNoticies(PnFormularis);
 			CarregarForm(frm, PnFormularis);
 		}
-	}
+        public static bool GetIsThemeDark()
+        {
+            return FrmMain.IsThemeDark;
+        }
+        public static void SetIsThemeDark(bool NewIsThemeDark)
+        {
+            FrmMain.IsThemeDark= NewIsThemeDark;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (IsThemeDark)
+            {
+                BackColor = Color.Black;
+            }
+            else
+            {
+                BackColor = Color.White;
+            }
+        }
+    }
 }
