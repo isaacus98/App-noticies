@@ -143,6 +143,16 @@ namespace App_noticies.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap samarreta {
+            get {
+                object obj = ResourceManager.GetObject("samarreta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap usuari {
             get {
                 object obj = ResourceManager.GetObject("usuari", resourceCulture);

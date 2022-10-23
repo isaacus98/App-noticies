@@ -286,6 +286,7 @@
             this.Controls.Add(this.PnFormularis);
             this.Controls.Add(this.PnMenuLateral);
             this.Controls.Add(this.PnMenuSuperior);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
