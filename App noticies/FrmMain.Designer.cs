@@ -148,8 +148,8 @@
             // 
             this.BtnBotiga.BackColor = System.Drawing.Color.Transparent;
             this.BtnBotiga.FlatAppearance.BorderSize = 0;
-            this.BtnBotiga.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
-            this.BtnBotiga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnBotiga.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
+            this.BtnBotiga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
             this.BtnBotiga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBotiga.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnBotiga.ForeColor = System.Drawing.Color.White;
@@ -172,8 +172,8 @@
             // 
             this.BtnCine.BackColor = System.Drawing.Color.Transparent;
             this.BtnCine.FlatAppearance.BorderSize = 0;
-            this.BtnCine.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
-            this.BtnCine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnCine.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
+            this.BtnCine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
             this.BtnCine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCine.ForeColor = System.Drawing.Color.White;
@@ -195,8 +195,8 @@
             // 
             this.BtnEconomia.BackColor = System.Drawing.Color.Transparent;
             this.BtnEconomia.FlatAppearance.BorderSize = 0;
-            this.BtnEconomia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
-            this.BtnEconomia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnEconomia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
+            this.BtnEconomia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
             this.BtnEconomia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEconomia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEconomia.ForeColor = System.Drawing.Color.White;
@@ -218,8 +218,8 @@
             // 
             this.BtnPolitica.BackColor = System.Drawing.Color.Transparent;
             this.BtnPolitica.FlatAppearance.BorderSize = 0;
-            this.BtnPolitica.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
-            this.BtnPolitica.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnPolitica.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
+            this.BtnPolitica.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
             this.BtnPolitica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPolitica.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPolitica.ForeColor = System.Drawing.Color.White;
@@ -241,8 +241,8 @@
             // 
             this.BtnEsports.BackColor = System.Drawing.Color.Transparent;
             this.BtnEsports.FlatAppearance.BorderSize = 0;
-            this.BtnEsports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
-            this.BtnEsports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.BtnEsports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
+            this.BtnEsports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(138)))), ((int)(((byte)(55)))));
             this.BtnEsports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEsports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEsports.ForeColor = System.Drawing.Color.White;

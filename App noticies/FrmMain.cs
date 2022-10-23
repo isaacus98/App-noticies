@@ -98,7 +98,7 @@ namespace App_noticies
 
 		private void PbMenu_MouseHover(object sender, EventArgs e)
 		{
-			PbMenu.BackColor = Color.FromArgb(255, 166, 62);
+			PbMenu.BackColor = Color.FromArgb(229, 138, 55);
 		}
 
 		private void PbMenu_MouseLeave(object sender, EventArgs e)
