@@ -15,6 +15,7 @@ namespace App_noticies
         private static string DataCaducitat = "";
         private static string Responsable = "";
         private static string Numero = "";
+        private static string CVV = "";
 
         private bool CaducitatCorrecte;
         private bool NumeroCorrecte;
@@ -43,6 +44,7 @@ namespace App_noticies
                         CaducitatCorrecte = true;
 
                 }
+
             }
 
             if (CaducitatCorrecte && NumeroCorrecte)
@@ -52,6 +54,8 @@ namespace App_noticies
                 DataCaducitat = TxtCaducitat.Text;
                 Responsable = TxtResponsable.Text;
                 Numero = TxtNumeroTargeta.Text;
+                CVV = TxtCvv.Text;
+
 
 
                 CaducitatCorrecte = false;
@@ -64,6 +68,11 @@ namespace App_noticies
         public String getData()
         {
             return DataCaducitat;
+        }
+
+        public String getCvv()
+        {
+            return CVV;
         }
 
         public String getNumero()

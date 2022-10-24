@@ -22,7 +22,7 @@ namespace App_noticies
         {
             if (IsThemeDark)
             {
-                PnNoticia.BackColor= Color.Black;
+                PnNoticia.BackColor = Color.FromArgb(66, 66, 66);
 
                 label1.ForeColor = Color.White;
                 label5.ForeColor = Color.White;

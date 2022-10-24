@@ -22,7 +22,7 @@ namespace App_noticies
         {
             if (IsThemeDark)
             {
-                BackColor = Color.Black;
+                BackColor = Color.FromArgb(66, 66, 66); ;
             }
             else
             {

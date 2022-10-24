@@ -49,11 +49,22 @@ namespace App_noticies
         {
             if (IsThemeDark)
             {
-                this.BackColor = Color.Black;
+                this.BackColor = Color.FromArgb(66,66,66);
                 this.RbtnClar.ForeColor = Color.White;
                 this.RbtnFosc.ForeColor = Color.White;
                 this.LblTemes.ForeColor = Color.White;
                 this.PnlLinia.BackColor = Color.White;
+
+                this.LblCaducitat.ForeColor = Color.White;
+                this.LblNomResponsable.ForeColor = Color.White;
+                this.LblNumeroTargeta.ForeColor = Color.White;
+                this.LblTags.ForeColor = Color.White;
+                this.LblDadesUsuari.ForeColor = Color.White;
+                this.flowLayoutPanel2.BackColor = Color.White;
+                this.flowLayoutPanel1.BackColor = Color.White;
+                this.label1.ForeColor = Color.White;
+                this.flowLayoutPanel3.BackColor = Color.White;
+                this.LblCvv.ForeColor = Color.White;
             }
             else
             {
@@ -62,6 +73,17 @@ namespace App_noticies
                 this.RbtnFosc.ForeColor = Color.Black;
                 this.LblTemes.ForeColor = Color.Black;
                 this.PnlLinia.BackColor = Color.Black;
+
+                this.LblCaducitat.ForeColor = Color.Black;
+                this.LblNomResponsable.ForeColor = Color.Black;
+                this.LblNumeroTargeta.ForeColor = Color.Black;
+                this.LblTags.ForeColor = Color.Black;
+                this.LblDadesUsuari.ForeColor = Color.Black;
+                this.flowLayoutPanel2.BackColor = Color.Black;
+                this.flowLayoutPanel1.BackColor = Color.Black;
+                this.label1.ForeColor = Color.Black;
+                this.flowLayoutPanel3.BackColor = Color.Black;
+                this.LblCvv.ForeColor = Color.Black;
             }
         }
 
@@ -105,6 +127,7 @@ namespace App_noticies
             LblCaducitat.Text = "Data caducitat: " + Tar.getData();
             LblNomResponsable.Text = "Responsable: " + Tar.getNom();
             LblNumeroTargeta.Text = "Numero de targeta: " + Tar.getNumero();
+            LblCvv.Text = "Numero CVV: " + Tar.getCvv();
         }
     }
 }

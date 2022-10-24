@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.PnDadesUsuari = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnTargeta = new FontAwesome.Sharp.IconButton();
             this.LblNomResponsable = new System.Windows.Forms.Label();
             this.LblCaducitat = new System.Windows.Forms.Label();
@@ -57,7 +58,7 @@
             this.PnlLinia = new System.Windows.Forms.FlowLayoutPanel();
             this.LblTemes = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.LblCvv = new System.Windows.Forms.Label();
             this.PnDadesUsuari.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.PnlTemes.SuspendLayout();
@@ -67,6 +68,7 @@
             // 
             this.PnDadesUsuari.BackColor = System.Drawing.Color.Transparent;
             this.PnDadesUsuari.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PnDadesUsuari.Controls.Add(this.LblCvv);
             this.PnDadesUsuari.Controls.Add(this.flowLayoutPanel3);
             this.PnDadesUsuari.Controls.Add(this.BtnTargeta);
             this.PnDadesUsuari.Controls.Add(this.LblNomResponsable);
@@ -98,6 +100,15 @@
             this.PnDadesUsuari.Name = "PnDadesUsuari";
             this.PnDadesUsuari.Size = new System.Drawing.Size(1456, 894);
             this.PnDadesUsuari.TabIndex = 2;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.BackColor = System.Drawing.Color.Black;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(653, 505);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(2, 334);
+            this.flowLayoutPanel3.TabIndex = 45;
             // 
             // BtnTargeta
             // 
@@ -367,14 +378,14 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // flowLayoutPanel3
+            // LblCvv
             // 
-            this.flowLayoutPanel3.BackColor = System.Drawing.Color.Black;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(653, 505);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(2, 334);
-            this.flowLayoutPanel3.TabIndex = 45;
+            this.LblCvv.AutoSize = true;
+            this.LblCvv.Location = new System.Drawing.Point(835, 580);
+            this.LblCvv.Name = "LblCvv";
+            this.LblCvv.Size = new System.Drawing.Size(28, 13);
+            this.LblCvv.TabIndex = 46;
+            this.LblCvv.Text = "CVV";
             // 
             // FrmDadesUsuari
             // 
@@ -426,6 +437,7 @@
         private System.Windows.Forms.Label LblNumeroTargeta;
         private FontAwesome.Sharp.IconButton BtnTargeta;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        private System.Windows.Forms.Label LblCvv;
     }
 }
 

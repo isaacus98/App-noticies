@@ -32,6 +32,7 @@
             this.TxtCaducitat = new PlaceholderTextBox.PlaceholderTextBox();
             this.TxtNumeroTargeta = new PlaceholderTextBox.PlaceholderTextBox();
             this.BtnConfirmarTargeta = new System.Windows.Forms.Button();
+            this.TxtCvv = new PlaceholderTextBox.PlaceholderTextBox();
             this.SuspendLayout();
             // 
             // TxtResponsable
@@ -72,11 +73,21 @@
             this.BtnConfirmarTargeta.UseVisualStyleBackColor = true;
             this.BtnConfirmarTargeta.Click += new System.EventHandler(this.BtnConfirmarTargeta_Click);
             // 
+            // TxtCvv
+            // 
+            this.TxtCvv.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCvv.Location = new System.Drawing.Point(12, 210);
+            this.TxtCvv.Name = "TxtCvv";
+            this.TxtCvv.PlaceholderText = "CVV";
+            this.TxtCvv.Size = new System.Drawing.Size(341, 31);
+            this.TxtCvv.TabIndex = 27;
+            // 
             // Targeta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(365, 450);
+            this.Controls.Add(this.TxtCvv);
             this.Controls.Add(this.BtnConfirmarTargeta);
             this.Controls.Add(this.TxtNumeroTargeta);
             this.Controls.Add(this.TxtCaducitat);
@@ -96,5 +107,6 @@
         private PlaceholderTextBox.PlaceholderTextBox TxtCaducitat;
         private PlaceholderTextBox.PlaceholderTextBox TxtNumeroTargeta;
         private System.Windows.Forms.Button BtnConfirmarTargeta;
+        private PlaceholderTextBox.PlaceholderTextBox TxtCvv;
     }
 }

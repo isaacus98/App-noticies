@@ -98,12 +98,30 @@ namespace App_noticies
 
 		private void PbMenu_MouseHover(object sender, EventArgs e)
 		{
-			PbMenu.BackColor = Color.FromArgb(229, 138, 55);
-		}
+            if (!IsThemeDark)
+            {
+
+                PbMenu.BackColor = Color.FromArgb(229, 138, 55);
+                
+            }
+            else
+            {
+                PbMenu.BackColor = Color.FromArgb(27,27,27);
+            }
+        }
 
 		private void PbMenu_MouseLeave(object sender, EventArgs e)
 		{
-            PbMenu.BackColor = Color.FromArgb(255, 154, 62);
+            if (!IsThemeDark)
+            {
+
+                PbMenu.BackColor = Color.FromArgb(255, 154, 62);
+
+            }
+            else
+            {
+                PbMenu.BackColor = Color.FromArgb(109, 109, 109);
+            }
         }
 
 		private void BtnBotiga_Click(object sender, EventArgs e)
@@ -145,11 +163,29 @@ namespace App_noticies
         {
             if (IsThemeDark)
             {
-                BackColor = Color.Black;
+                BackColor = Color.FromArgb(66, 66, 66);
+                PnMenuLateral.BackColor = Color.FromArgb(109, 109, 109);
+                PnMenuSuperior.BackColor = Color.FromArgb(109, 109, 109);
+                PbMenu.BackColor = Color.FromArgb(109, 109, 109);
+                BtnBotiga.FlatAppearance.MouseOverBackColor = Color.FromArgb(27, 27, 27);
+                BtnEconomia.FlatAppearance.MouseOverBackColor = Color.FromArgb(27, 27, 27);
+                BtnCine.FlatAppearance.MouseOverBackColor = Color.FromArgb(27, 27, 27);
+                BtnPolitica.FlatAppearance.MouseOverBackColor = Color.FromArgb(27, 27, 27);
+                BtnEsports.FlatAppearance.MouseOverBackColor = Color.FromArgb(27, 27, 27);
+               
             }
             else
             {
                 BackColor = Color.White;
+                PnMenuLateral.BackColor = Color.FromArgb(255, 154, 62);
+                PnMenuSuperior.BackColor = Color.FromArgb(255, 154, 62);
+                PbMenu.BackColor = Color.FromArgb(255, 154, 62);
+                BtnBotiga.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 138, 55);
+                BtnEconomia.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 138, 55);
+                BtnCine.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 138, 55);
+                BtnPolitica.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 138, 55);
+                BtnEsports.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 138, 55);
+
             }
         }
     }
