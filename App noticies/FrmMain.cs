@@ -71,8 +71,6 @@ namespace App_noticies
                 {
                     PnMenuLateral.Width += 10;
                 }
-
-                
             }
 		}
 

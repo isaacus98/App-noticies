@@ -59,6 +59,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Targeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Targeta.Designer.cs">
+      <DependentUpon>Targeta.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBotiga.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Targeta.resx">
+      <DependentUpon>Targeta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBotiga.resx">
       <DependentUpon>FrmBotiga.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +183,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\samarreta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Former_Visa_%28company%29_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\371909560_PLUS_400.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

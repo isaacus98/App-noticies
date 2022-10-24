@@ -63,9 +63,29 @@ namespace App_noticies.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _371909560_PLUS_400 {
+            get {
+                object obj = ResourceManager.GetObject("371909560_PLUS_400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap elonMusk {
             get {
                 object obj = ResourceManager.GetObject("elonMusk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Former_Visa__company__logo_svg {
+            get {
+                object obj = ResourceManager.GetObject("Former_Visa_(company)_logo.svg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

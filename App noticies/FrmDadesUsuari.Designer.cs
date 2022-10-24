@@ -30,6 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.PnDadesUsuari = new System.Windows.Forms.Panel();
+            this.BtnTargeta = new FontAwesome.Sharp.IconButton();
+            this.LblNomResponsable = new System.Windows.Forms.Label();
+            this.LblCaducitat = new System.Windows.Forms.Label();
+            this.LblNumeroTargeta = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.BtnAfegirTag = new System.Windows.Forms.Button();
             this.TxtListTags = new PlaceholderTextBox.PlaceholderTextBox();
             this.TxtTags = new PlaceholderTextBox.PlaceholderTextBox();
@@ -51,7 +57,9 @@
             this.PnlLinia = new System.Windows.Forms.FlowLayoutPanel();
             this.LblTemes = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.PnDadesUsuari.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.PnlTemes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +67,13 @@
             // 
             this.PnDadesUsuari.BackColor = System.Drawing.Color.Transparent;
             this.PnDadesUsuari.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PnDadesUsuari.Controls.Add(this.flowLayoutPanel3);
+            this.PnDadesUsuari.Controls.Add(this.BtnTargeta);
+            this.PnDadesUsuari.Controls.Add(this.LblNomResponsable);
+            this.PnDadesUsuari.Controls.Add(this.LblCaducitat);
+            this.PnDadesUsuari.Controls.Add(this.LblNumeroTargeta);
+            this.PnDadesUsuari.Controls.Add(this.pictureBox1);
+            this.PnDadesUsuari.Controls.Add(this.label1);
             this.PnDadesUsuari.Controls.Add(this.BtnAfegirTag);
             this.PnDadesUsuari.Controls.Add(this.TxtListTags);
             this.PnDadesUsuari.Controls.Add(this.TxtTags);
@@ -83,6 +98,70 @@
             this.PnDadesUsuari.Name = "PnDadesUsuari";
             this.PnDadesUsuari.Size = new System.Drawing.Size(1456, 894);
             this.PnDadesUsuari.TabIndex = 2;
+            // 
+            // BtnTargeta
+            // 
+            this.BtnTargeta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.BtnTargeta.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.BtnTargeta.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(111)))), ((int)(((byte)(229)))));
+            this.BtnTargeta.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnTargeta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnTargeta.Location = new System.Drawing.Point(1045, 522);
+            this.BtnTargeta.Name = "BtnTargeta";
+            this.BtnTargeta.Size = new System.Drawing.Size(191, 50);
+            this.BtnTargeta.TabIndex = 44;
+            this.BtnTargeta.Text = "Afegir targeta";
+            this.BtnTargeta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnTargeta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnTargeta.UseVisualStyleBackColor = true;
+            this.BtnTargeta.Click += new System.EventHandler(this.BtnTargeta_Click);
+            // 
+            // LblNomResponsable
+            // 
+            this.LblNomResponsable.AutoSize = true;
+            this.LblNomResponsable.Location = new System.Drawing.Point(835, 525);
+            this.LblNomResponsable.Name = "LblNomResponsable";
+            this.LblNomResponsable.Size = new System.Drawing.Size(89, 13);
+            this.LblNomResponsable.TabIndex = 43;
+            this.LblNomResponsable.Text = "Nom responsable";
+            // 
+            // LblCaducitat
+            // 
+            this.LblCaducitat.AutoSize = true;
+            this.LblCaducitat.Location = new System.Drawing.Point(835, 562);
+            this.LblCaducitat.Name = "LblCaducitat";
+            this.LblCaducitat.Size = new System.Drawing.Size(92, 13);
+            this.LblCaducitat.TabIndex = 42;
+            this.LblCaducitat.Text = "Data de caducitat";
+            // 
+            // LblNumeroTargeta
+            // 
+            this.LblNumeroTargeta.AutoSize = true;
+            this.LblNumeroTargeta.Location = new System.Drawing.Point(835, 543);
+            this.LblNumeroTargeta.Name = "LblNumeroTargeta";
+            this.LblNumeroTargeta.Size = new System.Drawing.Size(95, 13);
+            this.LblNumeroTargeta.TabIndex = 41;
+            this.LblNumeroTargeta.Text = "Numero de targeta";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::App_noticies.Properties.Resources.Former_Visa__company__logo_svg;
+            this.pictureBox1.Location = new System.Drawing.Point(752, 525);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(77, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 40;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(745, 456);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(286, 31);
+            this.label1.TabIndex = 39;
+            this.label1.Text = "Metode de pagament";
             // 
             // BtnAfegirTag
             // 
@@ -288,6 +367,15 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.BackColor = System.Drawing.Color.Black;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(653, 505);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(2, 334);
+            this.flowLayoutPanel3.TabIndex = 45;
+            // 
             // FrmDadesUsuari
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -301,6 +389,7 @@
             this.Text = "App noticies";
             this.PnDadesUsuari.ResumeLayout(false);
             this.PnDadesUsuari.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.PnlTemes.ResumeLayout(false);
             this.PnlTemes.PerformLayout();
             this.ResumeLayout(false);
@@ -330,6 +419,13 @@
         private System.Windows.Forms.Label LblTags;
         private PlaceholderTextBox.PlaceholderTextBox TxtListTags;
         private System.Windows.Forms.Button BtnAfegirTag;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LblNomResponsable;
+        private System.Windows.Forms.Label LblCaducitat;
+        private System.Windows.Forms.Label LblNumeroTargeta;
+        private FontAwesome.Sharp.IconButton BtnTargeta;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
     }
 }
 

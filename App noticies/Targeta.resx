@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="usuari" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-usuario-100(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Former_Visa_(company)_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Former_Visa_(company)_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="elonMusk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elonMusk.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-búsqueda-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pedro sanchez" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pedro sanchez.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-menú-100(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pintura" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pintura.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GoogleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-logo-de-google-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lewandowski" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lewandowski.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="samarreta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\samarreta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="371909560_PLUS_400" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\371909560_PLUS_400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

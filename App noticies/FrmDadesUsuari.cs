@@ -7,13 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace App_noticies
 {
 	public partial class FrmDadesUsuari : Form
 	{
         private static bool IsThemeDark=false;
-		public FrmDadesUsuari()
+        public static bool Targeta = false;
+        private Targeta Tar;
+        public FrmDadesUsuari()
 		{
 			InitializeComponent();
             RbtnClar.Checked = !IsThemeDark;
@@ -82,6 +85,26 @@ namespace App_noticies
             FrmMain.tags += "#" + TxtTags.Text + " ";
 
             TxtListTags.Text = FrmMain.tags;
+        }
+
+        private void BtnTargeta_Click(object sender, EventArgs e)
+        {
+            if (Targeta)
+            {
+                Tar.ShowDialog();
+            }
+
+            else
+            {
+                Tar = new Targeta();
+                Tar.ShowDialog();
+
+                BtnTargeta.Text = "Configurar";
+            }
+
+            LblCaducitat.Text = "Data caducitat: " + Tar.getData();
+            LblNomResponsable.Text = "Responsable: " + Tar.getNom();
+            LblNumeroTargeta.Text = "Numero de targeta: " + Tar.getNumero();
         }
     }
 }
