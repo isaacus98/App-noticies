@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace App_noticies
@@ -16,9 +9,13 @@ namespace App_noticies
         private static string Responsable = "";
         private static string Numero = "";
         private static string CVV = "";
-
         private bool CaducitatCorrecte;
         private bool NumeroCorrecte;
+
+        public string GetData { get => DataCaducitat; }
+        public string GetNom { get => Responsable; }
+        public string GetNumero { get => Numero; }
+        public string GetCvv { get => CVV; }
 
         public Targeta()
         {
@@ -56,8 +53,6 @@ namespace App_noticies
                 Numero = TxtNumeroTargeta.Text;
                 CVV = TxtCvv.Text;
 
-
-
                 CaducitatCorrecte = false;
                 NumeroCorrecte = false;
 
@@ -65,24 +60,6 @@ namespace App_noticies
             }
         }
 
-        public String getData()
-        {
-            return DataCaducitat;
-        }
-
-        public String getCvv()
-        {
-            return CVV;
-        }
-
-        public String getNumero()
-        {
-            return Numero;
-        }
-
-        public String getNom()
-        {
-            return Responsable;
-        }
+        
     }
 }

@@ -15,14 +15,22 @@ namespace App_noticies
 	{
         private static bool IsThemeDark=false;
         public static bool Targeta = false;
-        private Targeta Tar;
+       
         public FrmDadesUsuari()
 		{
-			InitializeComponent();
+            InitializeComponent();
             RbtnClar.Checked = !IsThemeDark;
             RbtnFosc.Checked = IsThemeDark;
             timer1.Start();
             TxtListTags.Text = FrmMain.tags;
+
+            if (Targeta)
+            {
+                LblCaducitat.Text = "Data caducitat: " + FrmMain.Tar.GetData;
+                LblNomResponsable.Text = "Responsable: " + FrmMain.Tar.GetNom;
+                LblNumeroTargeta.Text = "Numero de targeta: " + FrmMain.Tar.GetNumero;
+                LblCvv.Text = "Numero CVV: " + FrmMain.Tar.GetCvv;
+            }
         }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -111,23 +119,24 @@ namespace App_noticies
 
         private void BtnTargeta_Click(object sender, EventArgs e)
         {
+            FrmMain.Tar = new Targeta();
+
             if (Targeta)
             {
-                Tar.ShowDialog();
+                FrmMain.Tar.ShowDialog();
             }
 
             else
             {
-                Tar = new Targeta();
-                Tar.ShowDialog();
 
+                FrmMain.Tar.ShowDialog();
                 BtnTargeta.Text = "Configurar";
             }
 
-            LblCaducitat.Text = "Data caducitat: " + Tar.getData();
-            LblNomResponsable.Text = "Responsable: " + Tar.getNom();
-            LblNumeroTargeta.Text = "Numero de targeta: " + Tar.getNumero();
-            LblCvv.Text = "Numero CVV: " + Tar.getCvv();
+            LblCaducitat.Text = "Data caducitat: " + FrmMain.Tar.GetData;
+            LblNomResponsable.Text = "Responsable: " + FrmMain.Tar.GetNom;
+            LblNumeroTargeta.Text = "Numero de targeta: " + FrmMain.Tar.GetNumero;
+            LblCvv.Text = "Numero CVV: " + FrmMain.Tar.GetCvv;
         }
     }
 }

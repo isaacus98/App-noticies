@@ -17,7 +17,8 @@ namespace App_noticies
 		public static string Username = "";
         private static bool IsThemeDark = false;
         public static string tags = "";
-		public FrmMain()
+        public static Targeta Tar;
+        public FrmMain()
 		{
 			InitializeComponent();
             TimerTema.Start();
