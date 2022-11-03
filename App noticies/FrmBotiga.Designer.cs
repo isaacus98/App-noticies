@@ -41,6 +41,13 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -65,6 +72,13 @@
             // PnBotiga
             // 
             this.PnBotiga.BackColor = System.Drawing.Color.Transparent;
+            this.PnBotiga.Controls.Add(this.iconButton1);
+            this.PnBotiga.Controls.Add(this.label11);
+            this.PnBotiga.Controls.Add(this.label10);
+            this.PnBotiga.Controls.Add(this.label9);
+            this.PnBotiga.Controls.Add(this.label8);
+            this.PnBotiga.Controls.Add(this.label7);
+            this.PnBotiga.Controls.Add(this.label1);
             this.PnBotiga.Controls.Add(this.numericUpDown6);
             this.PnBotiga.Controls.Add(this.numericUpDown5);
             this.PnBotiga.Controls.Add(this.numericUpDown4);
@@ -85,9 +99,9 @@
             this.PnBotiga.Controls.Add(this.pictureBox2);
             this.PnBotiga.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnBotiga.Location = new System.Drawing.Point(0, 0);
-            this.PnBotiga.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnBotiga.Margin = new System.Windows.Forms.Padding(2);
             this.PnBotiga.Name = "PnBotiga";
-            this.PnBotiga.Size = new System.Drawing.Size(1455, 894);
+            this.PnBotiga.Size = new System.Drawing.Size(1735, 976);
             this.PnBotiga.TabIndex = 2;
             // 
             // numericUpDown6
@@ -276,6 +290,73 @@
             this.button1.Text = "Afegir al carro";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(643, 403);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 23);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "25€";
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(976, 403);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 23);
+            this.label7.TabIndex = 52;
+            this.label7.Text = "25€";
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(1309, 403);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(43, 23);
+            this.label8.TabIndex = 53;
+            this.label8.Text = "25€";
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(643, 773);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(43, 23);
+            this.label9.TabIndex = 54;
+            this.label9.Text = "25€";
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(976, 773);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(43, 23);
+            this.label10.TabIndex = 55;
+            this.label10.Text = "25€";
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(1309, 773);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(43, 23);
+            this.label11.TabIndex = 56;
+            this.label11.Text = "25€";
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.Location = new System.Drawing.Point(1631, 12);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(92, 56);
+            this.iconButton1.TabIndex = 57;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -352,10 +433,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1455, 894);
+            this.ClientSize = new System.Drawing.Size(1735, 976);
             this.Controls.Add(this.PnBotiga);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "FrmBotiga";
             this.Text = "App noticies";
@@ -396,6 +477,13 @@
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
 

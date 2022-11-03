@@ -59,6 +59,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmPopupCarrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPopupCarrito.Designer.cs">
+      <DependentUpon>FrmPopupCarrito.cs</DependentUpon>
+    </Compile>
     <Compile Include="Targeta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPopupCarrito.resx">
+      <DependentUpon>FrmPopupCarrito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Targeta.resx">
       <DependentUpon>Targeta.cs</DependentUpon>
     </EmbeddedResource>

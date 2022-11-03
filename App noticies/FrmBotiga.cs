@@ -37,5 +37,11 @@ namespace App_noticies
         {
             IsThemeDark=NewIsThemedark;
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            FrmPopupCarrito frmPopupCarrito = new FrmPopupCarrito();
+            frmPopupCarrito.ShowDialog();
+        }
     }
 }

@@ -60,7 +60,7 @@
             this.PnMenuSuperior.Controls.Add(this.PbMenu);
             this.PnMenuSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnMenuSuperior.Location = new System.Drawing.Point(0, 0);
-            this.PnMenuSuperior.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnMenuSuperior.Margin = new System.Windows.Forms.Padding(2);
             this.PnMenuSuperior.Name = "PnMenuSuperior";
             this.PnMenuSuperior.Size = new System.Drawing.Size(1443, 65);
             this.PnMenuSuperior.TabIndex = 0;
@@ -68,10 +68,10 @@
             // TxtBuscar
             // 
             this.TxtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBuscar.Location = new System.Drawing.Point(76, 20);
+            this.TxtBuscar.Location = new System.Drawing.Point(75, 21);
             this.TxtBuscar.Name = "TxtBuscar";
             this.TxtBuscar.PlaceholderText = "Buscar";
-            this.TxtBuscar.Size = new System.Drawing.Size(206, 29);
+            this.TxtBuscar.Size = new System.Drawing.Size(264, 29);
             this.TxtBuscar.TabIndex = 4;
             // 
             // LbIniciSessio
@@ -96,8 +96,8 @@
             this.BtnBuscar.BackgroundImage = global::App_noticies.Properties.Resources.lupa;
             this.BtnBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnBuscar.Location = new System.Drawing.Point(281, 20);
-            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnBuscar.Location = new System.Drawing.Point(335, 21);
+            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(29, 29);
             this.BtnBuscar.TabIndex = 2;
@@ -107,7 +107,7 @@
             // 
             this.PbLogo.Image = global::App_noticies.Properties.Resources.Logo;
             this.PbLogo.Location = new System.Drawing.Point(466, 0);
-            this.PbLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.PbLogo.Name = "PbLogo";
             this.PbLogo.Size = new System.Drawing.Size(88, 65);
             this.PbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -119,7 +119,7 @@
             // 
             this.PbMenu.Image = ((System.Drawing.Image)(resources.GetObject("PbMenu.Image")));
             this.PbMenu.Location = new System.Drawing.Point(9, 10);
-            this.PbMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PbMenu.Margin = new System.Windows.Forms.Padding(2);
             this.PbMenu.Name = "PbMenu";
             this.PbMenu.Size = new System.Drawing.Size(52, 50);
             this.PbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -139,7 +139,7 @@
             this.PnMenuLateral.Controls.Add(this.BtnEsports);
             this.PnMenuLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.PnMenuLateral.Location = new System.Drawing.Point(0, 65);
-            this.PnMenuLateral.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnMenuLateral.Margin = new System.Windows.Forms.Padding(2);
             this.PnMenuLateral.Name = "PnMenuLateral";
             this.PnMenuLateral.Size = new System.Drawing.Size(169, 792);
             this.PnMenuLateral.TabIndex = 1;
@@ -158,7 +158,7 @@
             this.BtnBotiga.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnBotiga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBotiga.Location = new System.Drawing.Point(-1, 245);
-            this.BtnBotiga.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnBotiga.Margin = new System.Windows.Forms.Padding(2);
             this.BtnBotiga.Name = "BtnBotiga";
             this.BtnBotiga.Size = new System.Drawing.Size(170, 54);
             this.BtnBotiga.TabIndex = 4;
@@ -182,7 +182,7 @@
             this.BtnCine.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnCine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnCine.Location = new System.Drawing.Point(0, 194);
-            this.BtnCine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnCine.Margin = new System.Windows.Forms.Padding(2);
             this.BtnCine.Name = "BtnCine";
             this.BtnCine.Size = new System.Drawing.Size(170, 54);
             this.BtnCine.TabIndex = 3;
@@ -205,7 +205,7 @@
             this.BtnEconomia.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEconomia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEconomia.Location = new System.Drawing.Point(0, 141);
-            this.BtnEconomia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnEconomia.Margin = new System.Windows.Forms.Padding(2);
             this.BtnEconomia.Name = "BtnEconomia";
             this.BtnEconomia.Size = new System.Drawing.Size(170, 54);
             this.BtnEconomia.TabIndex = 2;
@@ -228,7 +228,7 @@
             this.BtnPolitica.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnPolitica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnPolitica.Location = new System.Drawing.Point(0, 89);
-            this.BtnPolitica.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPolitica.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPolitica.Name = "BtnPolitica";
             this.BtnPolitica.Size = new System.Drawing.Size(170, 54);
             this.BtnPolitica.TabIndex = 1;
@@ -251,7 +251,7 @@
             this.BtnEsports.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEsports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEsports.Location = new System.Drawing.Point(0, 36);
-            this.BtnEsports.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnEsports.Margin = new System.Windows.Forms.Padding(2);
             this.BtnEsports.Name = "BtnEsports";
             this.BtnEsports.Size = new System.Drawing.Size(170, 54);
             this.BtnEsports.TabIndex = 0;
@@ -268,7 +268,7 @@
             this.PnFormularis.BackColor = System.Drawing.Color.Transparent;
             this.PnFormularis.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.PnFormularis.Location = new System.Drawing.Point(169, 65);
-            this.PnFormularis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnFormularis.Margin = new System.Windows.Forms.Padding(2);
             this.PnFormularis.Name = "PnFormularis";
             this.PnFormularis.Size = new System.Drawing.Size(1735, 976);
             this.PnFormularis.TabIndex = 2;
@@ -293,7 +293,7 @@
             this.Controls.Add(this.PnMenuLateral);
             this.Controls.Add(this.PnMenuSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.Text = "App noticies";
